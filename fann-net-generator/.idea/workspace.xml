@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated />
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="CargoProjects">
+    <cargoProject FILE="$PROJECT_DIR$/Cargo.toml" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="17046818-059f-4d63-b747-b88c1cbc46df" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android-apps/debug-app/src/main/java/com/wagoo/debugapp/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../android-apps/debug-app/src/main/java/com/wagoo/debugapp/MainActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../android-apps/example-app/src/main/java/com/wagoo/example/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../android-apps/example-app/src/main/java/com/wagoo/example/MainActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../firmwares-nordic/high-performance/Cargo.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../firmwares-nordic/high-performance/Cargo.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../firmwares-nordic/high-performance/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/../firmwares-nordic/high-performance/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../firmwares-nordic/high-performance/src/mmain.rs" beforeDir="false" afterPath="$PROJECT_DIR$/../firmwares-nordic/high-performance/src/mmain.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../firmwares-nordic/tests-firmwares/.cargo/config" beforeDir="false" afterPath="$PROJECT_DIR$/../firmwares-nordic/tests-firmwares/.cargo/config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../firmwares-nordic/tests-firmwares/Cargo.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../firmwares-nordic/tests-firmwares/Cargo.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../firmwares-nordic/tests-firmwares/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/../firmwares-nordic/tests-firmwares/Cargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../firmwares-nordic/tests-firmwares/Wargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/../firmwares-nordic/tests-firmwares/Wargo.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../firmwares-nordic/tests-firmwares/link/print-test/generated/memory_layout.rs" beforeDir="false" afterPath="$PROJECT_DIR$/../firmwares-nordic/tests-firmwares/link/print-test/generated/memory_layout.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../firmwares-nordic/tests-firmwares/link/print-test/memory.x" beforeDir="false" afterPath="$PROJECT_DIR$/../firmwares-nordic/tests-firmwares/link/print-test/memory.x" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../firmwares-nordic/tests-firmwares/link/scheduler-test/generated/memory_layout.rs" beforeDir="false" afterPath="$PROJECT_DIR$/../firmwares-nordic/tests-firmwares/link/scheduler-test/generated/memory_layout.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../firmwares-nordic/tests-firmwares/link/scheduler-test/memory.x" beforeDir="false" afterPath="$PROJECT_DIR$/../firmwares-nordic/tests-firmwares/link/scheduler-test/memory.x" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../firmwares-nordic/tests-firmwares/renode-testing/run-current.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../firmwares-nordic/tests-firmwares/renode-testing/run-current.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nordic-lib-rs/src/algorithms/extended_wagoo_algorithm.rs" beforeDir="false" afterPath="$PROJECT_DIR$/../nordic-lib-rs/src/algorithms/extended_wagoo_algorithm.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nordic-lib-rs/src/bundles/master/base_functions_request.rs" beforeDir="false" afterPath="$PROJECT_DIR$/../nordic-lib-rs/src/bundles/master/base_functions_request.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nordic-lib-rs/src/utilities/whitelist.rs" beforeDir="false" afterPath="$PROJECT_DIR$/../nordic-lib-rs/src/utilities/whitelist.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nordic-lib-rs/wagoo-algorithm/cinclude/fann/fann.h" beforeDir="false" afterPath="$PROJECT_DIR$/../nordic-lib-rs/wagoo-algorithm/cinclude/fann/fann.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nordic-lib-rs/wagoo-algorithm/cinclude/fann/fann_conf.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nordic-lib-rs/wagoo-algorithm/cinclude/fann/fann_net.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nordic-lib-rs/wagoo-algorithm/cinclude/fann/fann_structs.h" beforeDir="false" afterPath="$PROJECT_DIR$/../nordic-lib-rs/wagoo-algorithm/cinclude/fann/fann_structs.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nordic-lib-rs/wagoo-algorithm/cinclude/wagoo_algorithm.h" beforeDir="false" afterPath="$PROJECT_DIR$/../nordic-lib-rs/wagoo-algorithm/cinclude/wagoo_algorithm.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nordic-lib-rs/wagoo-algorithm/csrc/fann.c" beforeDir="false" afterPath="$PROJECT_DIR$/../nordic-lib-rs/wagoo-algorithm/csrc/fann.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nordic-lib-rs/wagoo-algorithm/csrc/wagoo_algorithm.c" beforeDir="false" afterPath="$PROJECT_DIR$/../nordic-lib-rs/wagoo-algorithm/csrc/wagoo_algorithm.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nordic-lib-rs/wagoo-algorithm/src/wagoo_algorithm.rs" beforeDir="false" afterPath="$PROJECT_DIR$/../nordic-lib-rs/wagoo-algorithm/src/wagoo_algorithm.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../nordic-lib-rs/wargo/src/cmdline/linker.rs" beforeDir="false" afterPath="$PROJECT_DIR$/../nordic-lib-rs/wargo/src/cmdline/linker.rs" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="amf238wm" />
+  </component>
+  <component name="ProjectId" id="1lSZAJi3pxBQkAHKfoAPstsWpLO" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="android.sdk.path" value="$USER_HOME$/Android/Sdk" />
+    <property name="cf.first.check.clang-format" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="org.rust.cargo.project.model.PROJECT_DISCOVERY" value="true" />
+    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+  </component>
+  <component name="RunManager">
+    <configuration name="&lt;template&gt;" type="Applet" default="true" selected="false">
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" default="true" selected="false">
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+    </configuration>
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Run" type="CargoCommandRunConfiguration" factoryName="Cargo Command" nameIsGenerated="true">
+      <option name="channel" value="DEFAULT" />
+      <option name="command" value="run -- $PROJECT_DIR$/../net-generator/network.json $PROJECT_DIR$/../nordic-lib-rs/wagoo-algorithm/cinclude/fann/fann_net.h" />
+      <option name="allFeatures" value="false" />
+      <option name="emulateTerminal" value="false" />
+      <option name="backtrace" value="SHORT" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <envs />
+      <method v="2">
+        <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="RustProjectSettings">
+    <option name="toolchainHomeDirectory" value="$USER_HOME$/.cargo/bin" />
+    <option name="version" value="2" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="17046818-059f-4d63-b747-b88c1cbc46df" name="Default Changelist" comment="" />
+      <created>1607592308049</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1607592308049</updated>
+      <workItem from="1607592309239" duration="5771000" />
+      <workItem from="1607601401523" duration="5253000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="418" y="211" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1607607138522">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="418" y="211" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1607607138522" />
+    <state width="1874" height="330" key="GridCell.Tab.0.bottom" timestamp="1607614660881">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="330" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1607614660881" />
+    <state width="1874" height="330" key="GridCell.Tab.0.center" timestamp="1607614660881">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="330" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1607614660881" />
+    <state width="1874" height="330" key="GridCell.Tab.0.left" timestamp="1607614660880">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="330" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1607614660880" />
+    <state width="1874" height="330" key="GridCell.Tab.0.right" timestamp="1607614660881">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="330" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1607614660881" />
+    <state width="1874" height="330" key="GridCell.Tab.1.bottom" timestamp="1607614660882">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="330" key="GridCell.Tab.1.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1607614660882" />
+    <state width="1874" height="330" key="GridCell.Tab.1.center" timestamp="1607614660881">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="330" key="GridCell.Tab.1.center/0.27.1920.1053@0.27.1920.1053" timestamp="1607614660881" />
+    <state width="1874" height="330" key="GridCell.Tab.1.left" timestamp="1607614660881">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="330" key="GridCell.Tab.1.left/0.27.1920.1053@0.27.1920.1053" timestamp="1607614660881" />
+    <state width="1874" height="330" key="GridCell.Tab.1.right" timestamp="1607614660881">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="330" key="GridCell.Tab.1.right/0.27.1920.1053@0.27.1920.1053" timestamp="1607614660881" />
+    <state x="651" y="256" width="618" height="594" key="find.popup" timestamp="1607594853898">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="651" y="256" width="618" height="594" key="find.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1607594853898" />
+    <state width="397" height="80" key="javadoc.popup.new" timestamp="1607606981803">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="397" height="80" key="javadoc.popup.new/0.27.1920.1053@0.27.1920.1053" timestamp="1607606981803" />
+  </component>
+</project>
