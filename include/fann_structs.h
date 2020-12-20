@@ -1,11 +1,13 @@
 //Copyright (c) 2018 ETH Zurich, Ferdinand von Hagen, Michele Magno, Lukas Cavigelli
 #include <math.h>
-#include "fann.h"
 
 #ifndef FANN_FANN_STRUCTS_H_
 #define FANN_FANN_STRUCTS_H_
 
 #define fann_max(a, b) ((a) > (b) ? (a) : (b))
+
+typedef float fann_type;
+
 
 typedef void (*fann_activation_function)(fann_type *, int);
 
@@ -16,6 +18,11 @@ typedef struct {
     fann_type *bias;
     fann_activation_function activation_function;
 } fann_layer;
+
+typedef struct {
+    int layers_count;
+    fann_layer layers[];
+} fann_network;
 
 
 static void fann_activation_softmax(fann_type *data, int size) {

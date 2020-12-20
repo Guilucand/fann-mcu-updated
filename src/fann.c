@@ -7,14 +7,14 @@
 
 fann_type temp_buffers[2][TEMP_BUFFER_SIZE];
 
-fann_type *fann_run(fann_type *input) {
+fann_type *fann_run(const fann_network *network, fann_type *input) {
 
     fann_type *previous_output = input;
     fann_type *current_output = temp_buffers[0];
 
-    for (int layer_it = 0; layer_it != NUM_LAYERS; ++layer_it) {
+    for (int layer_it = 0; layer_it != network->layers_count; ++layer_it) {
 
-        const fann_layer *layer = &fann_layers[layer_it];
+        const fann_layer *layer = &network->layers[layer_it];
 
         fann_type *weights = layer->weights;
         int inputs_count = layer->inputs_count;

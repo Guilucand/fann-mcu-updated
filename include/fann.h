@@ -3,7 +3,7 @@
 #ifndef FANN_FANN_H_
 #define FANN_FANN_H_
 
-typedef float fann_type;
+#include "fann_structs.h"
 
 /* Function: fann_run
     Will run input through the neural network, returning an array of outputs, the number of which being
@@ -15,7 +15,7 @@ typedef float fann_type;
     This function appears in FANN >= 1.0.0.
 */
 // __attribute__((ramfunc))
-fann_type *fann_run(fann_type * input);
+fann_type *fann_run(const fann_network *network, fann_type * input);
 
 
 #endif /* FANN_FANN_H_ */

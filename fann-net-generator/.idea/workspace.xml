@@ -13,33 +13,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="17046818-059f-4d63-b747-b88c1cbc46df" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../android-apps/debug-app/src/main/java/com/wagoo/debugapp/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../android-apps/debug-app/src/main/java/com/wagoo/debugapp/MainActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../android-apps/example-app/src/main/java/com/wagoo/example/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../android-apps/example-app/src/main/java/com/wagoo/example/MainActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../firmwares-nordic/high-performance/Cargo.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../firmwares-nordic/high-performance/Cargo.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../firmwares-nordic/high-performance/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/../firmwares-nordic/high-performance/Cargo.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../firmwares-nordic/high-performance/src/mmain.rs" beforeDir="false" afterPath="$PROJECT_DIR$/../firmwares-nordic/high-performance/src/mmain.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../firmwares-nordic/tests-firmwares/.cargo/config" beforeDir="false" afterPath="$PROJECT_DIR$/../firmwares-nordic/tests-firmwares/.cargo/config" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../firmwares-nordic/tests-firmwares/Cargo.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../firmwares-nordic/tests-firmwares/Cargo.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../firmwares-nordic/tests-firmwares/Cargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/../firmwares-nordic/tests-firmwares/Cargo.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../firmwares-nordic/tests-firmwares/Wargo.toml" beforeDir="false" afterPath="$PROJECT_DIR$/../firmwares-nordic/tests-firmwares/Wargo.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../firmwares-nordic/tests-firmwares/link/print-test/generated/memory_layout.rs" beforeDir="false" afterPath="$PROJECT_DIR$/../firmwares-nordic/tests-firmwares/link/print-test/generated/memory_layout.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../firmwares-nordic/tests-firmwares/link/print-test/memory.x" beforeDir="false" afterPath="$PROJECT_DIR$/../firmwares-nordic/tests-firmwares/link/print-test/memory.x" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../firmwares-nordic/tests-firmwares/link/scheduler-test/generated/memory_layout.rs" beforeDir="false" afterPath="$PROJECT_DIR$/../firmwares-nordic/tests-firmwares/link/scheduler-test/generated/memory_layout.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../firmwares-nordic/tests-firmwares/link/scheduler-test/memory.x" beforeDir="false" afterPath="$PROJECT_DIR$/../firmwares-nordic/tests-firmwares/link/scheduler-test/memory.x" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../firmwares-nordic/tests-firmwares/renode-testing/run-current.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../firmwares-nordic/tests-firmwares/renode-testing/run-current.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nordic-lib-rs/src/algorithms/extended_wagoo_algorithm.rs" beforeDir="false" afterPath="$PROJECT_DIR$/../nordic-lib-rs/src/algorithms/extended_wagoo_algorithm.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nordic-lib-rs/src/bundles/master/base_functions_request.rs" beforeDir="false" afterPath="$PROJECT_DIR$/../nordic-lib-rs/src/bundles/master/base_functions_request.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nordic-lib-rs/src/utilities/whitelist.rs" beforeDir="false" afterPath="$PROJECT_DIR$/../nordic-lib-rs/src/utilities/whitelist.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nordic-lib-rs/wagoo-algorithm/cinclude/fann/fann.h" beforeDir="false" afterPath="$PROJECT_DIR$/../nordic-lib-rs/wagoo-algorithm/cinclude/fann/fann.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nordic-lib-rs/wagoo-algorithm/cinclude/fann/fann_conf.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nordic-lib-rs/wagoo-algorithm/cinclude/fann/fann_net.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nordic-lib-rs/wagoo-algorithm/cinclude/fann/fann_structs.h" beforeDir="false" afterPath="$PROJECT_DIR$/../nordic-lib-rs/wagoo-algorithm/cinclude/fann/fann_structs.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nordic-lib-rs/wagoo-algorithm/cinclude/wagoo_algorithm.h" beforeDir="false" afterPath="$PROJECT_DIR$/../nordic-lib-rs/wagoo-algorithm/cinclude/wagoo_algorithm.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nordic-lib-rs/wagoo-algorithm/csrc/fann.c" beforeDir="false" afterPath="$PROJECT_DIR$/../nordic-lib-rs/wagoo-algorithm/csrc/fann.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nordic-lib-rs/wagoo-algorithm/csrc/wagoo_algorithm.c" beforeDir="false" afterPath="$PROJECT_DIR$/../nordic-lib-rs/wagoo-algorithm/csrc/wagoo_algorithm.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nordic-lib-rs/wagoo-algorithm/src/wagoo_algorithm.rs" beforeDir="false" afterPath="$PROJECT_DIR$/../nordic-lib-rs/wagoo-algorithm/src/wagoo_algorithm.rs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../nordic-lib-rs/wargo/src/cmdline/linker.rs" beforeDir="false" afterPath="$PROJECT_DIR$/../nordic-lib-rs/wargo/src/cmdline/linker.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../generate.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../include/fann.h" beforeDir="false" afterPath="$PROJECT_DIR$/../include/fann.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../include/fann_structs.h" beforeDir="false" afterPath="$PROJECT_DIR$/../include/fann_structs.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/fann.c" beforeDir="false" afterPath="$PROJECT_DIR$/../src/fann.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +28,13 @@
   </component>
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Rust File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -67,7 +54,7 @@
     <property name="cf.first.check.clang-format" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="org.rust.cargo.project.model.PROJECT_DISCOVERY" value="true" />
-    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+    <property name="settings.editor.selected.configurable" value="language.rust" />
   </component>
   <component name="RunManager">
     <configuration name="&lt;template&gt;" type="Applet" default="true" selected="false">
@@ -154,26 +141,30 @@
     <configuration name="&lt;template&gt;" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" default="true" selected="false">
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
     </configuration>
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Run" type="CargoCommandRunConfiguration" factoryName="Cargo Command" nameIsGenerated="true">
-      <option name="channel" value="DEFAULT" />
       <option name="command" value="run -- $PROJECT_DIR$/../net-generator/network.json $PROJECT_DIR$/../nordic-lib-rs/wagoo-algorithm/cinclude/fann/fann_net.h" />
+      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <option name="channel" value="DEFAULT" />
       <option name="allFeatures" value="false" />
       <option name="emulateTerminal" value="false" />
       <option name="backtrace" value="SHORT" />
-      <option name="workingDirectory" value="file://$PROJECT_DIR$" />
       <envs />
+      <option name="isRedirectInput" value="false" />
+      <option name="redirectInputPath" value="" />
       <method v="2">
         <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="RustProjectSettings">
+    <option name="runRustfmtOnSave" value="true" />
     <option name="toolchainHomeDirectory" value="$USER_HOME$/.cargo/bin" />
+    <option name="useRustfmt" value="true" />
     <option name="version" value="2" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -186,6 +177,7 @@
       <updated>1607592308049</updated>
       <workItem from="1607592309239" duration="5771000" />
       <workItem from="1607601401523" duration="5253000" />
+      <workItem from="1608486406957" duration="5746000" />
     </task>
     <servers />
   </component>
@@ -229,13 +221,21 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state width="1874" height="330" key="GridCell.Tab.1.right/0.27.1920.1053@0.27.1920.1053" timestamp="1607614660881" />
+    <state x="449" y="188" width="1022" height="737" key="SettingsEditor" timestamp="1608486688974">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="449" y="188" width="1022" height="737" key="SettingsEditor/0.27.1920.1053@0.27.1920.1053" timestamp="1608486688974" />
     <state x="651" y="256" width="618" height="594" key="find.popup" timestamp="1607594853898">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="651" y="256" width="618" height="594" key="find.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1607594853898" />
-    <state width="397" height="80" key="javadoc.popup.new" timestamp="1607606981803">
+    <state width="397" height="80" key="javadoc.popup.new" timestamp="1608490560676">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="397" height="80" key="javadoc.popup.new/0.27.1920.1053@0.27.1920.1053" timestamp="1607606981803" />
+    <state width="397" height="80" key="javadoc.popup.new/0.27.1920.1053@0.27.1920.1053" timestamp="1608490560676" />
+    <state x="623" y="259" width="672" height="678" key="search.everywhere.popup" timestamp="1608491692522">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="623" y="259" width="672" height="678" key="search.everywhere.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1608491692522" />
   </component>
 </project>
