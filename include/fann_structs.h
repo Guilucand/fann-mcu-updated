@@ -51,7 +51,7 @@ static void fann_activation_tanh(fann_type *data, int size) {
 
 static void fann_activation_relu(fann_type *data, int size) {
     for (int i = 0; i < size; i++) {
-        data[i] = max(0, data[i]);
+        data[i] = fmax(0, data[i]);
     }
 }
 
