@@ -37,12 +37,27 @@ struct LayerDescription {
 }
 
 #[derive(Serialize, Deserialize, Debug)]
+struct NormalizationMode {
+    mode: String,
+    min_params: Option<Vec<f64>>,
+    max_params: Option<Vec<f64>>,
+}
+
+#[derive(Serialize, Deserialize, Debug)]
 struct NetworkDescription {
+    norm: NormalizationMode,
     layers: Vec<LayerDescription>,
 }
 
 fn raw_token<T: ToString>(value: T) -> TokenStream {
     TokenStream::from_str(&value.to_string()).unwrap()
+}
+
+fn code_array_from_vec(vec: &Vec<f64>) -> String {
+    vec.iter()
+    .map(|f| f.to_string())
+    .collect::<Vec<_>>()
+    .join(",")
 }
 
 pub fn generate_headers(params: GenerationParameters) {
@@ -94,6 +109,37 @@ pub fn generate_headers(params: GenerationParameters) {
     for (network_name, network_desc) in netdescs {
         let layers_count = raw_token(network_desc.layers.len());
 
+        let norm_mode_token = raw_token(format!("{}_norm_mode", network_name));
+        let scaler_min_token = raw_token(format!("{}_scaler_min", network_name));
+        let scaler_max_token = raw_token(format!("{}_scaler_max", network_name));
+
+
+        let norm_value = raw_token((match network_desc.norm.mode.as_str() {
+            "simple" => {
+                0
+            },
+            "std" => {
+                1
+            },
+            "minmax" => {
+                2
+            }
+            nm => {
+                panic!("Normalization mode '{}' for network inputs is not supported!", nm)
+            }
+        }).to_string());
+
+
+        let min_scaler_values_token = raw_token(code_array_from_vec(&network_desc.norm.min_params.unwrap_or(Vec::new())));
+        let max_scaler_values_token = raw_token(code_array_from_vec(&network_desc.norm.max_params.unwrap_or(Vec::new())));
+
+        ccode.append_all(quote! {
+            int #norm_mode_token = #norm_value; #newline #newline
+            fann_type #scaler_min_token[] = { #min_scaler_values_token }; #newline #newline
+            fann_type #scaler_max_token[] = { #max_scaler_values_token }; #newline #newline #newline
+        });
+
+
         for (index, layer) in network_desc.layers.iter().enumerate() {
             let mut flat_weights: Vec<f64> = Vec::new();
 
@@ -102,20 +148,11 @@ pub fn generate_headers(params: GenerationParameters) {
             }
 
             let warray = raw_token(
-                flat_weights
-                    .iter()
-                    .map(|f| f.to_string())
-                    .collect::<Vec<_>>()
-                    .join(","),
+                code_array_from_vec(&flat_weights)
             );
 
             let barray = raw_token(
-                layer
-                    .bias
-                    .iter()
-                    .map(|f| f.to_string())
-                    .collect::<Vec<_>>()
-                    .join(","),
+                code_array_from_vec(&layer.bias)
             );
 
             let weights = raw_token(format!("{}_layer_weights_{}", network_name, index));
